@@ -1,0 +1,22 @@
+body{
+    font-size: xx-large;
+    font-family: "sans-serif";
+}
+
+.estructura1 {
+    align-content: center;
+    align-items: center;
+}
+
+.caja {
+    background-color: rgb(204, 204, 243);
+    border: 1px solid rgb(63, 63, 175);
+    margin: 5px;
+    text-align: center;
+}
+
+#contenido{
+    width: 75%;
+    flex: auto;
+    flex-grow: 3;
+}
