@@ -1,0 +1,52 @@
+.titulo + p {
+    font-weight: bold;
+}
+
+.leer-mas:hover , .leer-mas:focus{
+    color: rgb(64, 197, 238);
+    
+}
+
+.titulo::before {
+    content: "★";
+    color: gold;
+}
+
+p::first-letter {
+    font-size: 200%;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bolder;
+    color: brown;
+}
+
+::selection {
+    background-color: #7A27A0;
+    color: #DFF0D8;
+}
+
+.noticia:nth-child(even) { 
+    background-color: antiquewhite; 
+}
+
+.noticia:nth-child(odd) { 
+    background-color: aliceblue; 
+}
+
+/*
+- ¿Qué sucede si el icono decorativo aporta
+información importante y no solo estética?
+
+Esa información no va ser leida por el lector de pantalla, 
+lo que no será accesible.
+
+- ¿Cómo ayudas a los usuarios que navegan con
+teclado a saber en qué enlace están?
+Con el focus.
+
+- ¿Qué problema existe si el único criterio para
+diferenciar noticias o enlaces es el color?
+La página deja de ser accesible para personas con cualquier 
+tipo de problema para distinguir colores.
+
+*/
