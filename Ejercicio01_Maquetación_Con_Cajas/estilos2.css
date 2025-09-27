@@ -14,7 +14,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
     min-height: 100vh;
     margin: 5px;
     gap: 5px;
@@ -27,22 +26,22 @@ body {
     width: 100%;
 }
 
-#contenido-centro {
+.contenido-centro {
     display: flex;
+    flex-direction: row;
     gap: 5px;
     width: 100%;
-    align-content: center;
-    align-items: flex-start;
-}
-
-#contenido {
-    width: 65%;
     flex: 1;
 }
 
 #opciones {
-    width: 35%
+    width: 25%;
 }
+
+#contenido {
+    width: 75%;
+}
+
 
 #barra-nav,
 #articulo,
