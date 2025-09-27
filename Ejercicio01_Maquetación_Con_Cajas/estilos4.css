@@ -20,6 +20,8 @@ body {
     gap: 5px;
 }
 
+
+
 .caja {
     background-color: rgb(204, 204, 243);
     border: 1px solid rgb(63, 63, 175);
@@ -27,7 +29,57 @@ body {
     width: 100%;
 }
 
-#contenido {
-    width: 65%;
+#titulo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 20px;
+}
+
+#logo {
+    width: auto;
+    padding: 5px 15px;
+    flex-shrink: 0;
+}
+
+.barra-nav {
+    display: flex;
+}
+
+.contenido-centro {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 100%;
     flex: 1;
+}
+
+#opciones {
+    width: 20%;
+}
+
+#contenido {
+    width: 60%;
+    flex: 1;
+}
+
+
+#articulo {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border: none;
+    gap: 5px;
+}
+
+#articulo1,
+#articulo2 {
+    flex: 1;
+    min-height: 0;
+}
+
+#pie-pag {
+    width: 100;
 }
