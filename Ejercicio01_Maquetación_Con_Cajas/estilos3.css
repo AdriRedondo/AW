@@ -20,6 +20,8 @@ body {
     gap: 5px;
 }
 
+
+
 .caja {
     background-color: rgb(204, 204, 243);
     border: 1px solid rgb(63, 63, 175);
@@ -27,7 +29,29 @@ body {
     width: 100%;
 }
 
+.barra-nav {
+    display: flex;
+}
+
+.contenido-centro {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 100%;
+    flex: 1;
+}
+
+#opciones {
+    width: 25%;
+}
+
 #contenido {
     width: 65%;
     flex: 1;
+}
+
+
+#articulo,
+#logo {
+    display: none;
 }
