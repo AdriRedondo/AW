@@ -29,8 +29,10 @@ body {
     width: 100%;
 }
 
-.barra-nav {
-    display: flex;
+
+#barra-nav p {
+    text-align: left;
+    margin-left: 2%;
 }
 
 .contenido-centro {
