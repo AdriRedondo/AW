@@ -35,9 +35,9 @@ body {
     padding: 10px;
 }
 
-.titulo-texto {
-    text-align: center;
-    grid-column: 2;
+#titulo-texto {
+    margin: auto;
+    border: none;
 }
 
 #logo {
@@ -82,4 +82,9 @@ body {
 
 #pie-pag {
     width: 100;
+}
+
+#contenedor-noticias,
+#barra-nav .caja {
+    display: none;
 }

@@ -20,7 +20,9 @@ body {
     gap: 5px;
 }
 
-
+#titulo-texto {
+    border: none;
+}
 
 .caja {
     background-color: rgb(204, 204, 243);
@@ -54,6 +56,8 @@ body {
 
 
 #articulo,
+#contenedor-noticias,
+#barra-nav .caja,
 #logo {
     display: none;
 }

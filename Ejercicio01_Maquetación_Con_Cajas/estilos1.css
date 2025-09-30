@@ -33,6 +33,11 @@ body {
     flex: 1;
 }
 
+#titulo-texto {
+    margin: auto;
+    border: none;
+}
+
 #contenido {
     flex: 1;
 }
@@ -40,6 +45,7 @@ body {
 #opciones,
 #barra-nav,
 #articulo,
+#contenedor-noticias,
 #logo {
     display: none;
 }

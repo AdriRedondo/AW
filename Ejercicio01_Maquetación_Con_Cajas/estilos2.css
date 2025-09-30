@@ -26,6 +26,11 @@ body {
     width: 100%;
 }
 
+#titulo-texto {
+    margin: auto;
+    border: none;
+}
+
 .contenido-centro {
     display: flex;
     flex-direction: row;
@@ -45,6 +50,7 @@ body {
 
 #barra-nav,
 #articulo,
+#contenedor-noticias,
 #logo {
     display: none;
 }
